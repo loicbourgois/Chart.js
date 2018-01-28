@@ -30,6 +30,12 @@ var argv = yargs
   .option('verbose', {default: false})
   .argv
 
+var argv = yargs
+  .option('force-output', {default: false})
+  .option('silent-errors', {default: false})
+  .option('verbose', {default: false})
+  .argv
+
 var srcDir = './src/';
 var outDir = './dist/';
 
